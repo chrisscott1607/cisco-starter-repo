@@ -1,26 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Banner from 'react-js-banner';
+import './App.css'
+import Main from './components/MainComponent';
+
+
 
 function App() {
   return (
     <div className="App">
-      
-      <img src={logo} className="App-logo" alt="logo" />
-      
-      <Banner
-        title='Your Banner'
-      ></Banner>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      </a>
-      
+      <Main />
     </div>
-  );
+    
+  )
 }
 
 export default App;
